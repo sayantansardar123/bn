@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icecream web page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="https://www.zomato.com/kolkata/order-ice-cream-online" target="_blank">
+    <h1>ICECREAM</h1>
+    <div class="container">
+        <div class="flavour1">
+            <label for="flav">Choose a Flavour:</label>
+            <select name="flavour" id="flavour">
+                <option id="sa" value="choose">choose</option>
+                <option value="vanila">vanila(₹0.25/gm)</option>
+                <option value="Chocolate">chocolate(₹0.50/gm)</option>
+                <option value="strawberry">strawberry(₹0.75/gm)</option>
+                <option value="cone">cone(₹0.90/gm)</option>
+            </select>
+        </div><br>
+        <div class="Weight-section">
+            <label for="wet">Weight:</label>
+
+            <input type="radio" id="gm-50" name="weight" value="50" required>
+            <label for="gm-50">50gm.</label>
+            <input type="radio" id="gm-100" name="weight" value="100" required>
+            <label for="gm-100">100gm.</label>
+            <input type="radio" id="gm-150" name="weight" value="150" required>
+            <label for="gm-150">150gm.</label>
+            <input type="radio" id="gm-200" name="weight" value="200" required>
+            <label for="gm-200">200gm.</label>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <div class="serve-section">
+                        <label class="serve" for="flavour">Serve In:</label>
+                        <br>
+                        <input type="radio" id="cup" name="serve" value="cup" required>
+                        <label for="cup">Cup</label><br>
+                        <input type="radio" id="corn" name="serve" value="corn" required>
+                        <label for="corn">Corn</label><br>
+                        <input type="radio" id="stick" name="serve" value="stick" required>
+                        <label for="stick">Stick</label>
+                    </div>
+                </td>
+                <td>
+                    <div class="toppings-section">
+                        <label class="toppings" for="flavour">Toppings:</label>
+                        <br>
+                        <input type="radio" id="toppings1" name="toppings" value="strawberry">
+                        <label for="toppings1">strawberry</label><br>
+                        <input type="radio" id="toppings2" name="toppings" value="cherry">
+                        <label for="toppings2">cherry</label><br>
+                        <input type="radio" id="toppings3" name="toppings" value="sweet-bar">
+                        <label for="toppings3">sweet-bar</label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <div class="order-section">
+            <button type="submit" onclick="order();">Order</button>
+            <input class="er" type="reset" value="cancel" />
+        </div>
+    </div>
+</form>
+</body>
+<script src="js/ice.js"></script>
+
+</html>

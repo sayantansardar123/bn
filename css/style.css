@@ -1,0 +1,100 @@
+body {
+    background-image: url('../picture/carousel-2.jpg');
+}
+
+h1 {
+    text-align: center;
+    color: rgb(16, 1, 1);
+    font-size: 50px;
+}
+
+.container {
+    text-align: center;
+}
+
+.flavour1 {
+    font-size: 40px;
+    padding-right: 5%;
+    color: rgb(2, 2, 56);
+
+}
+
+select {
+    width: 19%;
+    height: 33px;
+    border-radius: 5px;
+    border-style: ridge;
+}
+
+select:hover {
+    color: rgb(156, 226, 43);
+    border-style: ridge;
+}
+
+option {
+    color: brown;
+}
+
+#sa {
+    background-color: blueviolet;
+}
+
+#flavour {
+    background-color: brown;
+}
+
+.Weight-section {
+    font-size: 30px;
+    padding-right: 5%;
+    color: rgb(19, 1, 16);
+}
+option{
+    color:beige;
+}
+.serve-section{
+    color:blue;
+}
+.serve{
+    color:blueviolet
+}
+.toppings-section{
+    color:blue;
+}
+.toppings{
+    color:blueviolet
+}
+table {
+    font-size: 30px;
+    text-align-last: justify;
+    padding: 0px 397px 8px 465px;
+    margin: 11px;
+}
+
+td {
+    padding: 40px;
+}
+
+button,
+.er {
+    height: 40px;
+    padding: 15px 34px;
+    margin: -8px 24px;
+    color:rgba(6, 6, 6, 0.849);
+    background-color: rgba(210, 48, 11, 0.887);
+    border-color: chartreuse;
+    border-radius: 9px 9px;
+    
+  
+    
+}
+button:hover{
+
+    background-color: beige;
+    color:blueviolet;
+    box-shadow: 2px 2px 20px black;
+}
+.er:hover{
+    background-color: beige;
+    color:blueviolet;
+    box-shadow: 2px 2px 20px black;
+}
